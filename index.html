@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="weather-toggle">
+    <input type="radio" id="sunny" name="weather" checked />
+    <label for="sunny" class="button sunny"></label>
+    <input type="radio" id="rainy" name="weather" />
+    <label for="rainy" class="button rainy"></label>
+    <input type="radio" id="snowy" name="weather" />
+    <label for="snowy" class="button snowy"></label>
+    <input type="radio" id="cloudy" name="weather" />
+    <label for="cloudy" class="button cloudy"></label>
+  </div>
+  <div class="weather-scene">
+    <div class="weather sunny-scene">
+      <div class="sun"></div>
+    </div>
+    <div class="weather rainy-scene">
+      <div class="cloud"></div>
+      <div class="rain"></div>
+    </div>
+    <div class="weather snowy-scene">
+      <div class="cloud"></div>
+      <div class="snow"></div>
+    </div>
+    <div class="weather cloudy-scene">
+      <div class="cloud"></div>
+      <div class="cloud"></div>
+    </div>
+  </div>
+</body>
+</html>
